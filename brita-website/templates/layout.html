@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
 
-    <title>{% block title %}Welcome{% endblock %} — fsiddi</title>
+    <title>{% block title %}{% endblock %} Inês Almeida</title>
 
     <!-- static or CDN files for CSS -->
-    <link rel="stylesheet" href="{{ '/static/css/bootstrap.min.css'|asseturl }}">
-    <link rel="stylesheet" href="{{ '/static/css/font-awesome.min.css'|asseturl }}">
-    <link href="//fonts.googleapis.com/css?family=Varela+Round:400,normal" rel="stylesheet" type='text/css'>
+    <link rel="stylesheet" href="{{ '/static/css/bootstrap.min.css'|asseturl }}"/>
+    <link rel="stylesheet" href="{{ '/static/css/font-awesome.min.css'|asseturl }}"/>
+    <link href="//fonts.googleapis.com/css?family=Varela+Round:400,normal" rel="stylesheet" type='text/css'/>
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="{{ '/static/css/folio.css'|asseturl }}">
-    <link rel="stylesheet" href="{{ '/static/css/font.borg.css'|asseturl }}">
-    <link rel="icon" type="image/png" href="{{ '/static/favicon/favicon.png'|url }}">
+    <link rel="stylesheet" href="{{ '/static/css/folio.css'|asseturl }}"/>
+    <link rel="stylesheet" href="{{ '/static/css/font.borg.css'|asseturl }}"/>
+    <link rel="icon" type="image/png" href="{{ '/static/favicon/favicon.png'|url }}"/>
 
     <!-- IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -32,36 +32,46 @@
 
     <!-- Begin page content -->
     <div class="container">
+
       <div class="page-header">
         <div class="row">
+          <!-- Title -->
           <div class="col-md-8">
-            <a href="{{ '/film'|url }}" class="brand">
-              <h1>fsiddi</h1>
+            <a href="{{ '/development'|url }}" class="brand">
+              <h1>Inês Almeida</h1>
             </a>
           </div>
+
+          <!-- Links CV|Linkedin|etc-->
           <div class="col-md-4">
             <div class="social-icons pull-right">
-            {% for link, icon in [
-              ['https://twitter.com/fsiddi', 'fa fa-twitter'],
-              ['https://www.linkedin.com/in/fsiddi', 'fa fa-linkedin']] %}
-              <a href="{{link}}" target="_blank" title="{{link}}">
+            {% for label, link, icon in [
+              ['britalmeida@gmail.com', 'mailto:britalmeida@gmail.com', 'fa fa-envelope-o'],
+              ['@brita_pt', 'https://twitter.com/brita_pt', 'fa fa-twitter'],
+              ['iralmeida', 'https://www.linkedin.com/in/iralmeida', 'fa fa-linkedin'],
+              ['CV', 'http://www.inesalmeida.com/static/files/cv-inesalmeida.pdf', 'fa fa-file-pdf-o'],
+              ['ines-almeida', 'https://www.blendernetwork.org/ines-almeida', 'bf-network']
+            ]%}
+              <a href="{{link}}" target="_blank" title="{{label}}">
                 <i class="{{icon}}"></i>
               </a>
             {% endfor %}
             </div>
           </div>
         </div>
-
       </div>
-      <p class="lead">My name is Francesco Siddi. I am a Technical Director at Blender Institute. I also develop web applications and film production tools.</p>
 
+      <!-- Short Summary -->
+      <p class="lead">Developer and Technical Artist.</p>
+
+      <!-- Categories / Navigation Bar -->
       <div class="row">
         <div class="col-md-12">
           <ul class="nav nav-pills nav-justified">
             {% for href, title in [
-              ['/film', 'Film'],
-              ['/software', 'Software'],
+              ['/development', 'Development'],
               ['/other', 'Other'],
+              ['/about', 'About'],
               ['/contact', 'Contact']
             ] %}
               <li{% if this.is_child_of(href) %} class="active"{% endif
@@ -73,9 +83,10 @@
       {% block body %}{% endblock %}
     </div>
 
+    <!-- Footer -->
     <div class="footer">
       <div class="container">
-        <p class="text-muted pull-right">&copy; Copyright 2016 by Francesco Siddi.</p>
+        <p class="text-muted pull-right">&copy; Copyright 2016 by Inês Almeida.</p>
       </div>
     </div>
 
