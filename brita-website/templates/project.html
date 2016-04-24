@@ -1,5 +1,5 @@
 {% extends "layout.html" %}
-{% block title %}{{ this.name }} ({{ this.date.year }}){% endblock %}
+{% block title %}{{ this.name }} - {% endblock %}
 {% block body %}
   <div class="embed">{{ this.embed }}</div>
 
@@ -21,18 +21,20 @@
   {% endif %}
 
   <h1>{{ this.name }}</h1>
-  <div class="description">{{ this.description }}</div>
+  <div class="project-company">{{ this.company }}</div>
+
+  {% if this.website %}
+  <div class="project-website">
+    <a href="{{this.website}}" target="_blank">Project's website <i class="fa fa-external-link"></i></a>
+  </div>
+  {% endif %}
+
+  <div class="project-headline">{{ this.headline }}</div>
+  <div class="project-description">{{ this.description }}</div>
+
   <dl>
     <dt>Date</dt>
-    <dd>{{ this.date|dateformat }}</dd>
-    {% if this.website %}
-    <dt>Website</dt>
-    <dd><a href="{{ this.website }}">{{ this.website.host }}</a></dd>
-    {% endif %}
-    {% if this.type %}
-    <dt>Project type</dt>
-    <dd>{{ this.type }}</dd>
-    {% endif %}
+    <dd>{{ this.displaydate }}</dd>
   </dl>
 
 {% endblock %}
