@@ -1,0 +1,14 @@
+name: Google Summer of Code 2014
+---
+categories: animation
+---
+description:
+**"BGE - Cleanup & Support" - a project to refactor and bugfix areas of Blender's Game Engine**
+
+The BGE is an interactive real time engine integrated into Blender with scripting, animation and physics simulation capabilities.  
+My work for this project consisted of bugtracker support, bugfixing and cleanup of areas such as the scenegraph and Python API integration with Blender.  
+See more in the [overview page](http://wiki.blender.org/index.php/User:Brita/GSoC_BGE_cleanup_and_support) and [final report](http://wiki.blender.org/index.php/User:Brita/GSoC_BGE_cleanup_and_support/reports/final).
+---
+date: 2013-6-23
+---
+website: http://wiki.blender.org/index.php/User:Brita/GSoC_BGE_cleanup_and_support
