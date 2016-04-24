@@ -1,2 +1,8 @@
 [project]
 name = brita
+
+[servers.production]
+name = Production
+enabled = yes
+default = yes
+target = rsync://britalmeida@staging.inesalmeida.com/home/britalmeida/staging.inesalmeida.com
