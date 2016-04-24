@@ -1,0 +1,20 @@
+name: Exploring Translation to Portuguese Sign Language
+---
+categories: 
+---
+company: MSc Thesis - Instituto Superior Técnico
+---
+website: http://web.ist.utl.pt/~ist163556/pt2lgp
+---
+displaydate: 2014
+---
+headline: Exploring Challenges in Avatar-based Translation from European Portuguese to Portuguese Sign Language
+---
+description:
+
+A project to study and list open problems in a proposed a pipeline to translate from Portuguese text to Portuguese Sign Language using a 3D avatar.
+
+The pipeline encompasses a Natural Language Processing and Translation step at the concept level, followed by a module to procedurally Synthesise an Animation of the resulting utterance.  
+This is a project made particularly challenging by the differences in the Linguistics of the Sign Language.
+---
+date: 2014-6-23

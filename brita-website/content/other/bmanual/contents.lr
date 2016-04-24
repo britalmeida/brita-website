@@ -1,0 +1,20 @@
+name: Blender Manual
+---
+categories: 
+---
+company: Blender Foundation
+---
+website: http://www.blender.org/manual
+---
+displaydate: 2014
+---
+headline: Migration, coordination and writing for the new Blender documentation project.
+---
+description:
+
+Blender Manual is a project aimed at documenting the Blender 3D software functionality.
+
+I was involved in the platform migration process from media wiki to sphinx that involved major organizational and technical restructuring.
+I also wrote and reviewed several sections, including meta information pages such as the getting involved and installation sections, as well as content pages.
+---
+date: 2014-6-23
