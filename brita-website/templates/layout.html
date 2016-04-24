@@ -4,19 +4,20 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <meta name="description" content=""/>
-    <meta name="author" content=""/>
+    <meta name="description" content="Personal website for Inês Almeida"/>
+    <meta name="author" content="Inês Almeida"/>
 
     <title>{% block title %}{% endblock %} Inês Almeida</title>
 
     <!-- static or CDN files for CSS -->
     <link rel="stylesheet" href="{{ '/static/css/bootstrap.min.css'|asseturl }}"/>
     <link rel="stylesheet" href="{{ '/static/css/font-awesome.min.css'|asseturl }}"/>
+    <link rel="stylesheet" href="{{ '/static/css/googleapi_font_ubuntu.css'|asseturl }}"/>
     <link href="//fonts.googleapis.com/css?family=Varela+Round:400,normal" rel="stylesheet" type='text/css'/>
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="{{ '/static/css/folio.css'|asseturl }}"/>
-    <link rel="stylesheet" href="{{ '/static/css/font.borg.css'|asseturl }}"/>
+    <link rel="stylesheet" href="{{ '/static/css/font-borg.css'|asseturl }}"/>
     <link rel="icon" type="image/png" href="{{ '/static/favicon/favicon.png'|url }}"/>
 
     <!-- IE6-8 support of HTML5 elements -->
@@ -49,8 +50,8 @@
               ['britalmeida@gmail.com', 'mailto:britalmeida@gmail.com', 'fa fa-envelope-o'],
               ['@brita_pt', 'https://twitter.com/brita_pt', 'fa fa-twitter'],
               ['iralmeida', 'https://www.linkedin.com/in/iralmeida', 'fa fa-linkedin'],
-              ['CV', 'http://www.inesalmeida.com/static/files/cv-inesalmeida.pdf', 'fa fa-file-pdf-o'],
-              ['ines-almeida', 'https://www.blendernetwork.org/ines-almeida', 'bf-network']
+              ['ines-almeida', 'https://www.blendernetwork.org/ines-almeida', 'bf-network'],
+              ['CV', 'http://www.inesalmeida.com/static/files/cv-inesalmeida.pdf', 'fa fa-file-pdf-o']
             ]%}
               <a href="{{link}}" target="_blank" title="{{label}}">
                 <i class="{{icon}}"></i>
