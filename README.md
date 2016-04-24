@@ -1,2 +1,2 @@
-# fsiddi-website
+# brita-website
 My personal website
