@@ -3,7 +3,7 @@
   render_project_list_category, render_category_nav %}
 {% block title %}{% endblock %}
 {% block body %}
-  {{ render_project_list_category("CE", this.children) }}
-  {{ render_project_list_category("Blender", this.children) }}
-  {{ render_project_list_category("Game", this.children) }}
+  {{ render_project_list_category("CE", "Crytek", this.children) }}
+  {{ render_project_list_category("Blender", "Blender", this.children) }}
+  {{ render_project_list_category("Game", "Games and Jams", this.children) }}
 {% endblock %}

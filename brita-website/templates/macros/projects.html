@@ -7,6 +7,7 @@
   </ul>
 {% endmacro %}
 
+
 {% macro render_project_list(projects) %}
 
   {% for project in projects %}
@@ -30,13 +31,12 @@
 {% endmacro %}
 
 
-{% macro render_project_list_category(category, projects) %}
+{% macro render_project_list_category(category, title, projects) %}
 
   <div class="row">
-    {{ category }}
-  </div>
+    <div class="development-category">{{ title }}</div>
 
-  {% for project in projects if project.category == category %}
+    {% for project in projects if project.category == category %}
       {% if loop.index is not divisibleby 2 %}
       <div class="row">
       {% endif %}
@@ -52,6 +52,7 @@
       {% if loop.index is divisibleby 2 or loop.last %}
       </div>
       {% endif %}
-  {% endfor %}
+    {% endfor %}
+  </div>
 
 {% endmacro %}
