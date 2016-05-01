@@ -32,6 +32,10 @@ a:hover {
   color: #666;
 }
 
+blockquote {
+  font-size: 15px
+}
+
 .container {
   width: auto;
   max-width: 680px;
