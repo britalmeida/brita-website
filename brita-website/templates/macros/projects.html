@@ -34,7 +34,7 @@
 {% macro render_project_list_category(category, title, projects) %}
 
   <div class="row">
-    <div class="development-category">{{ title }}</div>
+    <!--<div class="development-category">{{ title }}</div>-->
 
     {% for project in projects if project.category == category %}
       {% if loop.index is not divisibleby 2 %}

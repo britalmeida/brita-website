@@ -1,3 +1,12 @@
+/*
+main text color: #666
+  darker: #333;
+  lighter: #aaa;
+main secondary color: #fe4c11
+  darker: #fe8158
+*/
+
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -25,11 +34,11 @@ body {
 /* Not required for template or sticky footer method. */
 
 a {
-  color: #444;
+  color: #fe4c11;
 }
 
 a:hover {
-  color: #666;
+  color: #fe8158;
 }
 
 blockquote {
@@ -38,7 +47,7 @@ blockquote {
 
 .container {
   width: auto;
-  max-width: 680px;
+  max-width: 720px;
   padding: 0 15px;
 }
 .container .text-muted {
@@ -46,7 +55,7 @@ blockquote {
 }
 
 .page-header {
-  border-bottom-color: #AAA;
+  border-bottom-color: #aaa; /*feb59d*/
 }
 
 .brand {
@@ -87,7 +96,7 @@ blockquote {
 
 .nav-pills>li>a:hover {
   color: #333;
-  border-bottom: 1px solid #AAA;
+  border-bottom: 1px solid #aaa;
 }
 
 .nav-pills>li.active>a,
@@ -95,7 +104,7 @@ blockquote {
 .nav-pills>li.active>a:hover {
   background-color: transparent;
   color: #333;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #fe4c11;
   border-radius: 0;
 }
 
@@ -114,11 +123,32 @@ blockquote {
   display: block;
 }
 
+.project-entry a {
+  color: #333;
+}
+
 .project-entry a:hover {
+  color: #fe4c11;
   text-decoration: none;
 }
 
-.project-description {
+.project-name {
+  font-size: 36px; /* h1 */
+  margin-top: 15px;
+  margin-bottom: 0px;
+  color: #333;
+}
+
+.project-company {
+  font-size: 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.project-website {
   margin-bottom: 20px;
 }
 
@@ -129,16 +159,7 @@ blockquote {
   margin-bottom: 10px;
 }
 
-.project-company {
-  font-size: 15px;
-  font-family: 'Source Sans Pro', sans-serif;
-  text-transform: uppercase;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  color: #666;
-}
-
-.project-website {
+.project-description {
   margin-bottom: 20px;
 }
 
