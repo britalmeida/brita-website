@@ -1,10 +1,10 @@
 _model: page
 ---
-title: About
+title: 
 ---
 body:
-I am a Programmer and Technical Artist.
-I work with Blender and other tools to make interactive applications.  
-With a background on Computer Science, my main interests lie in Computer Graphics, Games, Film and Animation.
+I am a Programmer and Technical Artist, with a background in Computer Science.
 
-I work mostly with Blender, since 2011, to make still, moving and interactive pictures, focusing on improving the tools and process/pipeline.
+My main interests lie in Computer Graphics, Games, Film and Animation.
+
+I work mostly with Blender, since 2011, to make still, moving and interactive pictures, focusing on improving the tools and pipeline. Most recently, I am employed by Crytek, working with CryEngine on a game production.
