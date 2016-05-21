@@ -17,8 +17,8 @@ I have worked on generic fixes and tweaks for add-ons and the Blender core.
 
 Most notably, I have worked on:
 - ['Selection Sets'](https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Animation/SelectionSets) - an add-on for easy selection of controls for animators,
-- ['Blender-ID'](https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/System/BlenderID) add-on - a distributed authentication system for use with the cloud and other add-ons,
-- ['Attract'](https://gooseberry.blender.org/production-tools-state-report) add-on - an interface within Blender for the shot management tool during the production of the Gooseberry project.
+- ['Blender-ID add-on'](https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/System/BlenderID) - a distributed authentication system for use with the cloud and other add-ons,
+- ['Attract add-on'](https://gooseberry.blender.org/production-tools-state-report) - an interface within Blender for the shot management tool during the production of the Gooseberry project.
 
 Other related projects (e.g. UI Previews) are also listed in the website.
 I am part of the top 20 Blender developers since 2014.
