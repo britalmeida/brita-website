@@ -8,15 +8,24 @@ website: http://www.blender.org
 ---
 displaydate: 2011 - current
 ---
-headline: 
+headline: Contributions to the Blender free software project.
 ---
 description:
 
-Blender Development
+I am part of the Blender developer community and an active contributor since 2011.
+I have worked on generic fixes and tweaks for add-ons and the Blender core.
 
-Selection Sets. Fixes and Tweaks.
+Most notably, I have worked on:
+- ['Selection Sets'](https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Animation/SelectionSets) - an add-on for easy selection of controls for animators,
+- ['Blender-ID'](https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/System/BlenderID) add-on - a distributed authentication system for use with the cloud and other add-ons,
+- ['Attract'](https://gooseberry.blender.org/production-tools-state-report) add-on - an interface within Blender for the shot management tool during the production of the Gooseberry project.
 
-Top developer
+Other related projects (e.g. UI Previews) are also listed in the website.
+I am part of the top 20 Blender developers since 2014.
+
+Blender has a large codebase in C and Python with over 20 years of history and dozens of active contributors.
+It is used in production all over the world, with more than half a million downloads per month.
+
 ---
 date: 2016-5-01
 ---

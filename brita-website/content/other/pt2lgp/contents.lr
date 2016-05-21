@@ -17,4 +17,4 @@ A project to study and list open problems in a proposed a pipeline to translate 
 The pipeline encompasses a Natural Language Processing and Translation step at the concept level, followed by a module to procedurally Synthesise an Animation of the resulting utterance.  
 This is a project made particularly challenging by the differences in the Linguistics of the Sign Language.
 ---
-date: 2014-6-23
+date: 2014-11-15

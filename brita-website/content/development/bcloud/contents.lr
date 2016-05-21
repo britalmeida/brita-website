@@ -12,11 +12,11 @@ headline: Development of the Blender Cloud infrastructure during the Gooseberry 
 ---
 description:
 
-Blender Cloud is a web infrastructure serving tutorial videos and files to hundreds of users.
+The Blender Cloud is a web infrastructure serving tutorial videos and files to thousands of users.
 
-The service was launched together with a worldwide crowdfunding campaign to support Blender's newest open movie: the Gooseberry project.  
+The service was launched together with a worldwide crowdfunding campaign to support Blender's 5th open movie *['Cosmos Laundromat'](https://gooseberry.blender.org)*, codenamed 'Gooseberry project'.  
 The framework uses Python, Flask and JavaScript.
 ---
-date: 2014-6-23
+date: 2015-5-30
 ---
 category: Blender
