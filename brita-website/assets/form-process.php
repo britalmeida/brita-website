@@ -13,7 +13,7 @@ if (empty($_POST["email"]) ) {
 
 // Subject
 if (empty($_POST["subject"])) {
-    $errorMSG = "Subject is required ";
+    $errorMSG .= "Subject is required ";
 } else {
     $subject = $_POST["subject"];
 }
