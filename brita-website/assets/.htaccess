@@ -1,2 +1,6 @@
 RewriteEngine On
 RewriteRule ^$ /development [L]
+
+# http to https redirect
+RewriteCond %{HTTPS} !=on
+RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
