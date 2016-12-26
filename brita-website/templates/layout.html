@@ -36,6 +36,7 @@
 
       <div class="page-header">
         <div class="row">
+
           <!-- Title -->
           <div class="col-md-8">
             <a href="{{ '/development'|url }}" class="brand">
@@ -46,8 +47,8 @@
           <!-- Links CV|Linkedin|etc-->
           <div class="col-md-4">
             <div class="social-icons pull-right">
+              <!--['britalmeida@gmail.com', 'mailto:britalmeida@gmail.com', 'fa fa-envelope-o'],-->
             {% for label, link, icon in [
-              ['britalmeida@gmail.com', 'mailto:britalmeida@gmail.com', 'fa fa-envelope-o'],
               ['@brita_pt', 'https://twitter.com/brita_pt', 'fa fa-twitter'],
               ['iralmeida', 'https://www.linkedin.com/in/iralmeida', 'fa fa-linkedin'],
               ['ines-almeida', 'https://www.blendernetwork.org/ines-almeida', 'bf-network'],
@@ -63,16 +64,16 @@
       </div>
 
       <!-- Short Summary -->
-      <p class="lead">Developer and Technical Artist.</p>
+      <p class="lead">Software Engineer and Technical Artist.</p>
 
       <!-- Categories / Navigation Bar -->
       <div class="row">
         <div class="col-md-12">
           <ul class="nav nav-pills nav-justified">
+            <!--['/about', 'About'],-->
             {% for href, title in [
               ['/development', 'Development'],
               ['/other', 'Other'],
-              ['/about', 'About'],
               ['/contact', 'Contact']
             ] %}
               <li{% if this.is_child_of(href) %} class="active"{% endif
@@ -87,7 +88,7 @@
     <!-- Footer -->
     <div class="footer">
       <div class="container">
-        <p class="text-muted pull-right">&copy; Copyright 2016 by Inês Almeida.</p>
+        <p class="text-muted pull-right">&copy; Copyright 2015-2017 by Inês Almeida.</p>
       </div>
     </div>
 

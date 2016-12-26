@@ -136,6 +136,12 @@ blockquote {
   text-decoration: none;
 }
 
+.project-entry h3 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 8px;
+}
+
 .project-name {
   font-size: 36px; /* h1 */
   margin-top: 15px;
