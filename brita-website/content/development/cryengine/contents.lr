@@ -11,7 +11,7 @@ headline:
 description: 
 I worked as junior engine programmer for CRYENGINE in the Support Team and as platform maintainer for Linux and the Android NVidia Shield.
 
-My work consisted in bug fixes, feature requests, cleanup refactors, documentation and clarifications both internally and for licensees.
+My work consisted on bug fixes, feature requests, cleanup refactors, documentation and clarifications both internally and for licensees.
 Technology wise, I worked with C++ and Lua for the engine and with Python for the internal infrastructure tools.
 ---
 date: 2016-4-30

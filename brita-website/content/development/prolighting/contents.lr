@@ -10,7 +10,7 @@ headline: Full development of the add-on 'Pro-Lighting: Skies' for the 'Blender 
 ---
 description: 
 
-The main challenge of this project was the development of the **UI Previews** in the core of Blender, which consists of a widget for Blender's interface with custom loaded images, as well as the architecture for loading and caching these images.
+The main challenge of this project was the development of the **UI Previews** system in the core of Blender, which consists of a widget for Blender's interface with custom loaded images, as well as the architecture for loading and caching these images.
 
 See more information about the UI Previews feature [here](https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.75/Addons#UI_Previews).
 

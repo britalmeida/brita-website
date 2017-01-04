@@ -1,15 +1,18 @@
-name: The Climb
+name: The Climb - North Expansion
 ---
 company: Crytek
 ---
 website: http://www.theclimbgame.com
 ---
-displaydate: Dec 2016
+displaydate: Nov 2016 - Dec 2016
 ---
-headline: "Go beyond boundaries in Robinson: The Journey, a brand new virtual reality game from Crytek."
+headline: VR climbing game, exclusive for the Oculus Rift. Worked on the North Expansion with touch controls.
 ---
 description:
-VR climbing game, exclusive for the Oculus Rift. Worked on the North Expansion with touch controls.
+
+Responsible for transferring technology from other games to the Climb code base for the North Expansion.
+
+Provided support for artists and designers and did performance analysis and optimization for the target frame rate.
 ---
 date: 2016-11-15
 ---
