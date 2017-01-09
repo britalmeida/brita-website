@@ -6,19 +6,19 @@ website: http://www.robinsonthegame.com
 ---
 displaydate: May 2016 – Nov 2016
 ---
-headline: An adventure and exploration game in Virtual Reality for the PlayStation 4.
+headline: An immersive adventure and exploration game in Virtual Reality for the PlayStation 4.
 ---
 description:
-(Description In progress)
 
-Adventure and exploration game offering story, puzzles and an immersive VR experience for the PlayStation4.
-My main responsibilities were
-several milestones
-FlowGraph, the logic and visual scripting system of CRYENGINE.
-TrackView, the cinematic tool
-Editor support
-Performance analysis and optimization
-game specific features such as the trophy and progress system, scanning and review of the interaction system.
+Development of engine and game features, supporting the team's needs.
+
+My main responsibilities were:
+- Editor support for the artists and designers.
+- FlowGraph, the logic and visual scripting system of CRYENGINE.
+- TrackView, the cinematic tool.
+- Performance analysis and optimization.
+- Game specific features such as the progress system, scanning and review of the interaction system.
+
 ---
 date: 2016-5-1
 ---
